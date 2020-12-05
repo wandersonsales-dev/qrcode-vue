@@ -1,6 +1,7 @@
 <template>
+  <!--  eslint-disable-next-line  -->
   <button class="button"
-    @click="$emit('onClick', label)"
+    @click="$emit('on-click', label)"
     :class="{ double, triple, operation }">
     {{ label }}
   </button>
